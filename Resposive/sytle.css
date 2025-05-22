@@ -1,0 +1,196 @@
+body {
+  background-color: #1c1f2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.node {
+  width: 2.5vw;
+  height: 2.5vw;
+  background-color: #1c1f2b;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.edge {
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  transform-origin: 0 0;
+}
+
+.label {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.timer {
+  position: absolute;
+  left:10px;
+  font-size:1rem;
+  margin-top: 0.1rem;
+}
+
+.timer div {
+  margin-right: 1rem;
+}
+
+#gtimer {
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.playpause {
+  display: flex;
+}
+
+.playpause button {
+  margin-right: 2rem;
+}
+
+.buletin {
+  height: 10vh;
+  width: 30vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 0.7rem;
+  padding: 4px;
+  background-color: white;
+}
+
+#bulboard {
+  font-size: 0.5rem;
+}
+
+.red {
+  background-color: rgb(247, 81, 81);
+}
+
+.blue {
+  background-color: rgb(103, 103, 239);
+}
+.sc {
+  left:10px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+.sc p {
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.timer {
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.timer div {
+  padding: 0.2rem;
+}
+
+.buletin {
+  position:absolute;
+  right:10px;
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #1c1f2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .node {
+    width: 7vw;
+    height: 7vw;
+    background-color: #1c1f2b;
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .edge {
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    transform-origin: 0 0;
+  }
+  
+  .label {
+    position: absolute;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  #gtimer {
+    color: white;
+    font-weight: bold;
+  }
+
+  .playpause {
+    display: flex;
+  }
+
+  .playpause button {
+    margin-right: 2rem;
+  }
+
+  .buletin {
+    display: none;
+  }
+
+  #bulboard {
+    font-size: 0.5rem;
+  }
+  
+  .red {
+    background-color: rgb(247, 81, 81);
+  }
+
+  .blue {
+    background-color: rgb(103, 103, 239);
+  }
+  .sc {
+    display: flex;
+    color: white;
+    font-weight: bold;
+  }
+  .sc p {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid white;
+  }
+
+  .timer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  .timer div {
+    padding: 0.2rem;
+  }
+
+  .buletin {
+    background-color: white;
+  }
+}
