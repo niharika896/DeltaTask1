@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titans Game</title>
+    <link rel="stylesheet" href="./sytle.css" />
+  </head>
+  <body>
+
+    <div class="left"> 
+      <div class="timer">
+        <div class="red">
+          <p id="rt">Red timer:2min 30sec</p>
+          <p id="rtm">This Move: 20sec</p>
+        </div>
+        <div class="blue">
+          <p id="bt">Blue timer:2min 30sec</p>
+          <p id="btm">This Move:20sec</p>
+        </div>
+      </div>
+
+      <div class="unre">
+        <button id="undo">UNDO</button>
+        <button id="redo">REDO</button>
+      </div>
+      <div class="leaderboard">
+        <div class="row">
+          <img src="./istockphoto-1477780233-612x612.jpg" alt="">
+          <h2>Leaderboard</h2>
+        </div>
+          <ul class="ranking">
+
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="centre">
+      <p id="gtimer">Game Timer:5min 0sec</p>
+      <div class="sc">
+        <p id="rsc">Red score:0</p>
+        <p id="bsc">Blue score:0</p>
+      </div>
+      <div class="grid-container">
+        <div id="grid"></div>
+      </div>
+
+      <div class="playpause">
+        <button id="play">PLAY</button>
+        <button id="pause">PAUSE</button>
+        <button id="reset">RESET</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="right">
+      <div class="buletin">
+        <h3>Moves History:</h3>
+        <p id="bulboard"></p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
