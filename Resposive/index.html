@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titans Game</title>
+    <link rel="stylesheet" href="./sytle.css" />
+  </head>
+  <body>
+    <!-- one p tag for gtimer -->
+    <p id="gtimer">Game Timer:5min 0sec</p>
+    <!-- One div for scorecard -->
+    <div class="sc">
+      <p id="rsc">Red score:0</p>
+      <p id="bsc">Blue score:0</p>
+    </div>
+    <!-- end of score card -->
+    <!-- individual timers -->
+    <div class="timer">
+      <div class="red">
+        <p id="rt">Red timer:2min 30sec</p>
+        <p id="rtm">This Move: 20sec</p>
+      </div>
+      <div class="blue">
+        <p id="bt">Blue timer:2min 30sec</p>
+        <p id="btm">This Move:20sec</p>
+      </div>
+    </div>
+    <!-- end of inidivial timers -->
+    <!-- begining of bulletins -->
+    <div class="buletin">
+      <h3>Bluetins:</h3>
+      <p id="bulboard"></p>
+    </div>
+    <!-- hexa grid -->
+    <div class="grid-container">
+      <div id="grid"></div>
+    </div>
+    <!-- play pause -->
+    <div class="playpause" >
+      <button id="play">PLAY</button>
+      <button id="pause">PAUSE</button>
+      <button id="reset">RESET</button>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
