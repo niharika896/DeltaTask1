@@ -1,0 +1,170 @@
+body {
+  background-color: #1c1f2b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height:100vh;
+  margin: 0;
+}
+
+.left{
+  margin-left: 1vw; 
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:30vw;
+  position: relative;
+}
+
+.centre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+
+.right{
+  
+  width: 20vw;
+  margin-right:1vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height:100%;
+
+}
+.node {
+  width: 2.5vw;
+  height: 2.5vw;
+  background-color: #1c1f2b;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.edge {
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  transform-origin: 0 0;
+}
+
+.label {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.timer {
+  position: relative;
+  margin-top: 10vw;
+  font-size:1rem;
+}
+
+.timer div {
+  margin-right: 1rem;
+}
+.unre{
+  width: fit-content;
+  position: relative;
+  margin-top: 1vw;
+  background-color: rgb(103, 103, 239);
+  height:fit-content;
+  padding:10px;
+}
+.unre button{
+  
+  padding:4px;
+  margin-right: 4px;
+}
+
+#gtimer {
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.playpause {
+  display: flex;
+}
+
+.playpause button {
+  margin-right: 2rem;
+}
+
+.buletin {
+  height: 100vh;
+  width: 80%;
+  margin-top: 1vh;
+  font-size: 1rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: white;
+}
+
+#bulboard {
+  font-size: 1rem;
+}
+
+.red {
+  background-color: rgb(247, 81, 81);
+}
+
+.blue {
+  background-color: rgb(103, 103, 239);
+}
+.sc {
+  left:10px;
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+.sc p {
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.timer {
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+
+.timer div {
+  padding: 0.2rem;
+}
+
+.buletin {
+  position:absolute;
+  right:10px;
+  background-color: white;
+}
+
+.leaderboard{
+  background-color: white;
+  padding: 2px;
+  margin-top: 20px;
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+.ranking li{
+  font-size: large;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.row img{
+  margin: 10px;
+  height:40px;
+}
